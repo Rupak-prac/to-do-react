@@ -34,11 +34,7 @@ export default function ToDoForm({addTd}){
            <TextField id="filled-basic"  onChange={change} onKeyDown={sendTd} value={formData.text} name="text" label="add to-do, press enter" variant="filled" />
         </Grid>
 
-        <Grid item alignItems="stretch" style={{ display: "flex" }}>
-            <IconButton onClick={sendTd} aria-label="add">
-                <AddIcon />
-            </IconButton>
-        </Grid>
+    
       </Grid>
         
     )
